@@ -1,0 +1,25 @@
+# ADS Projektas
+
+Šis projektas apima kelis pavyzdžius ir uždavinius įvairiomis programavimo kalbomis:
+
+- **C14 (C++)**:  
+  Įgyvendinama Monte Karlo simuliacija, skirta apytiksliai apskaičiuoti π.  
+  _Kompiliavimas ir paleidimas:_  
+  - Eikite į aplanką `/DATA/Documents/VU/ADS/C14`.
+  - Paleiskite `make`, kad sukurtumėte vykdomąjį failą.
+  - Paleiskite programą su `./C14.exe` (arba perduokite taškų skaičių kaip argumentą).
+  - Paleidžkite `make clean`, kad pašalintumėte vykdomąjį failą.
+
+- **B21 (Python)**:  
+  Sudaryta programa, kuri naudoja DFS ciklų aptikimui grafuose.  
+  _Paleidimas:_  
+  - Eikite į aplanką `/DATA/Documents/VU/ADS/B21`.
+  - Paleiskite `python3 main.py`.
+
+- **A4 (JavaScript)**:  
+  Paprastas „Sveikas pasauli!“ pavyzdys.  
+  _Paleidimas:_  
+  - Eikite į aplanką `/DATA/Documents/VU/ADS/A4`.
+  - Paleiskite `node main.js`.
+
+Įsitikinkite, kad jūsų sistemoje yra įdiegti reikiami kompiliatoriai ir interpretatoriai (g++, python3, node.js).
