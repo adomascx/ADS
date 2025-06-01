@@ -17,7 +17,7 @@
   - Paleiskite `python3 main.py`.
 
 - **A4 (JavaScript)**:  
-  Paprastas „Sveikas pasauli!“ pavyzdys.  
+  Įgyvendina Šelo rikiavimo algoritmą, kuris išrikiuoja sąrašą naudojant posąrašius.
   _Paleidimas:_  
   - Eikite į aplanką `/DATA/Documents/VU/ADS/A4`.
   - Paleiskite `node main.js`.
