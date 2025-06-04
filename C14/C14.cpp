@@ -1,6 +1,6 @@
 #include "C14.h"
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
     srand(time(NULL));
 
@@ -23,17 +23,18 @@ int main(int argc, char* argv[])
         randCoord(points[i].x);
         randCoord(points[i].y);
     }
-    
+
     // coordTest(points.data(), n);
 
     // Rasti taškus, esančius apskritime
     int inCircleCnt = 0;
     for (int i = 0; i < n; i++)
     {
-        if (isInCircle(points[i])) inCircleCnt++;
+        if (isInCircle(points[i]))
+            inCircleCnt++;
     }
 
     cout << "pi = " << 4 * ((double)inCircleCnt / n) << '\n';
-    
+
     return 0;
 }

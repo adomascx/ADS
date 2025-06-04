@@ -5,7 +5,8 @@
 
 using namespace std;
 
-struct Point {
+struct Point
+{
     double x, y;
 };
 
@@ -21,7 +22,8 @@ bool isInCircle(Point &point)
 
 void coordTest(Point *points, int n)
 {
-    for (int i = 0; i < n; i ++){
-        cout << i << ". (" << points[i].x << "," << points[i].y << ")\n"; 
+    for (int i = 0; i < n; i++)
+    {
+        cout << i << ". (" << points[i].x << "," << points[i].y << ")\n";
     }
 }
