@@ -22,4 +22,4 @@
   - Paleiskite programą su `./C14.exe` (arba perduokite taškų skaičių kaip argumentą).
   - Paleidžkite `make clean`, kad pašalintumėte vykdomąjį failą.
 
-Įsitikinkite, kad jūsų sistemoje yra įdiegti reikiami kompiliatoriai ir interpretatoriai (g++, python3, node.js).
+Įsitikinkite, kad jūsų sistemoje yra įdiegti reikiami kompiliatoriai ir interpretatoriai (gcc, python3, node.js).
